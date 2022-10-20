@@ -89,8 +89,8 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        Para más desarrollos accede a
-        <a class="text-white" href="https://www.configuroweb.com/" style="color:#ffffff;">ConfiguroWeb</a>
+        Saludos
+        <a class="text-white" href="" style="color:#ffffff;">Web</a>
     </div>
     <!-- Copyright -->
 </footer>

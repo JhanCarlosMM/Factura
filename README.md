@@ -6,4 +6,4 @@ Este Sistema Básico de Facturación en PHP y MySQL permite generar dinámicamen
 
 Más información en el siguiente enlace:
 
-<a href="https://www.configuroweb.com/sistema-basico-de-facturacion-en-php-y-mysql/">Sistema Básico de Facturación en PHP y MySQL</a>
+<a href="https://www.configuroweb.com/sistema-basico-de-facturacion-en-php-y-mysql/">Sistema de Facturación</a>

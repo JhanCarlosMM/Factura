@@ -5,12 +5,12 @@ include 'Invoice.php';
 $invoice = new Invoice();
 $invoice->checkLoggedIn();
 ?>
-<title>Sistema Básico de Facturación en PHP y MySQL</title>
+<title>Sistema de Facturación</title>
 <script src="js/invoice.js"></script>
 <link href="css/style.css" rel="stylesheet">
 <?php include('inc/container.php'); ?>
 <div class="container">
-  <h2 class="title">Sistema Básico de Facturación</h2>
+  <h2 class="title">Sistema de Facturación</h2>
   <?php include('menu.php'); ?>
   <table id="data-table" class="table table-condensed table-striped">
     <thead>

@@ -18,7 +18,7 @@ if (!empty($_POST['email']) && !empty($_POST['pwd'])) {
 	}
 }
 ?>
-<title>Sistema Básico de Facturación en PHP y MySQL</title>
+<title>Sistema de Facturación</title>
 <script src="js/invoice.js"></script>
 <link href="css/style.css" rel="stylesheet">
 <?php include('inc/container.php'); ?>
@@ -44,7 +44,7 @@ if (!empty($_POST['email']) && !empty($_POST['pwd'])) {
 			</div>
 		</form>
 		<br>
-		<p>Para más desarrollos accede a <a href="https://www.configuroweb.com/desarrollo/" style="color:white"> <b>ConfiguroWeb</b></a>
+		<p>Creado para ser util<a href="" style="color:white"> <b>y servir</b></a>
 	</div>
 </div>
 </div>

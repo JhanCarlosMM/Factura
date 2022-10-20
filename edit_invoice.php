@@ -13,7 +13,7 @@ if (!empty($_GET['update_id']) && $_GET['update_id']) {
 	$invoiceItems = $invoice->getInvoiceItems($_GET['update_id']);
 }
 ?>
-<title>Sistema Básico de Facturación en PHP y MySQL</title>
+<title>Sistema de Facturación</title>
 <script src="js/invoice.js"></script>
 <link href="css/style.css" rel="stylesheet">
 <?php include('inc/container.php'); ?>
@@ -22,7 +22,7 @@ if (!empty($_GET['update_id']) && $_GET['update_id']) {
 		<div class="load-animate animated fadeInUp">
 			<div class="row">
 				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-					<h1 class="title">Sistema Básico de Facturación</h1>
+					<h1 class="title">Sistema de Facturación</h1>
 					<?php include('menu.php'); ?>
 				</div>
 			</div>
