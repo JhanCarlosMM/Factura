@@ -12,7 +12,7 @@ $invoiceDate = date("d/M/Y, H:i:s", strtotime($invoiceValues['order_date']));
 $output = '';
 $output .= '<table width="100%" border="1" cellpadding="5" cellspacing="0">
 	<tr>
-	<td colspan="2" align="center" style="font-size:18px"><b>Factura ConfiguroWeb</b></td>
+	<td colspan="2" align="center" style="font-size:18px"><b>Factura Web</b></td>
 	</tr>
 	<tr>
 	<td colspan="2">
@@ -84,7 +84,7 @@ $output .= '
 	</tr>
 	</table>';
 // create pdf of invoice	
-$invoiceFileName = 'Factura ConfiguroWeb-' . $invoiceValues['order_id'] . '.pdf';
+$invoiceFileName = 'Factura Web-' . $invoiceValues['order_id'] . '.pdf';
 require_once 'dompdf/src/Autoloader.php';
 Dompdf\Autoloader::register();
 
